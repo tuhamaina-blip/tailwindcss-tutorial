@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwindcss Tutorial</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-stone-950 text-stone-100 min-h-screen flex items-center justify-center p-6">
+    <div class="max-w-md w-full bg-stone-900 border border-stone-800 p-6 rounded-lg shadow-xl">
+        
+        <!-- Category & Title using Text Colors -->
+        <span class="text-xs font-bold uppercase tracking-widest text-amber-500">Color System</span>
+        <h2 class="text-2xl font-extrabold mt-1 text-white">Dynamic Interactive States</h2>
+        <p class="text-sm text-stone-400 mt-2">Observe how colors morph cleanly using hover and focus state modifiers.</p>
+
+        <!-- Color Scale Visualizer Panel -->
+        <div class="mt-4 flex gap-1 h-6 w-full rounded overflow-hidden">
+            <div class="bg-blue-50 flex-1"></div>
+            <div class="bg-blue-100 flex-1"></div>
+            <div class="bg-blue-200 flex-1"></div>
+            <div class="bg-blue-300 flex-1"></div>
+            <div class="bg-blue-400 flex-1"></div>
+            <div class="bg-blue-500 flex-1"></div>
+            <div class="bg-blue-600 flex-1"></div>
+            <div class="bg-blue-700 flex-1"></div>
+            <div class="bg-blue-800 flex-1"></div>
+            <div class="bg-blue-900 flex-1"></div>
+            <div class="bg-blue-950 flex-1"></div>
+        </div>
+
+        <!-- Form Elements showing Focus and Border Colors -->
+        <div class="mt-6 space-y-4">
+            <div>
+                <label class="block text-xs font-semibold text-stone-400 uppercase mb-2">Interactive Input</label>
+                <input type="email" placeholder="Enter email..." 
+                       class="w-full bg-stone-800 border border-stone-700 text-white placeholder-stone-500 rounded px-4 py-2.5 text-sm outline-none transition-all duration-200 focus:border-amber-500 focus:ring-1 focus:ring-amber-500">
+            </div>
+
+            <!-- Button showing Hover and Active Background Colors -->
+            <button class="w-full font-bold uppercase text-xs tracking-wider py-3 px-4 rounded transition-all duration-200 bg-amber-500 text-stone-950 hover:bg-amber-400 active:bg-amber-600">
+                Action Trigger Button
+            </button>
+        </div>
+
+    </div>
+    <div class="bg-blue-500 text-white p-6  rounded-lg m-10">
+        <h1>Welcome to Tailwindcss Tutorial</h1>
+    </div>
+</body>
+</html>

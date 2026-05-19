@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice Sandbox: About Corporate Profile</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Include Play CDN framework for parsing learner classes in real-time -->
+</head>
+<!-- LEARNER MISSION 1: Style the master body background canvas (e.g., bg-stone-950 text-stone-100) -->
+<body class="bg-stone-800 text-stone-100 font-arial">
+
+    <!-- ==========================================
+         NAVIGATION BAR
+         ========================================== -->
+    <!-- LEARNER MISSION 2: Make this navbar sticky, background blurred, and borders defined -->
+    <nav class="sticky top-0 background-blur-md border-b border-stone-800 bg-stone-950/80 p-3 z-50">
+        <div class="max-w-md items-center justify-center shadow-xl">
+            <span class=" text-2xl text-cyan-400">NEXUS<span class="text-cyan-400">.</span></span>
+            <!-- Responsive Challenge: Hide menu links list on mobile view ports, flex items on medium (md:) layout screens up -->
+            <div class="max-w-md justify-center p-4">
+                <a href="#" class="text-white">Home</a>
+                <a href="#" class="text-white">Catalog</a>
+                <a href="#" class="text-white">About Us</a>
+            </div>
+            <button class="text-md bg-cyan-600 hover:bg-cyan-300 text-black rounded-lg p-1">Connect</button>
+        </div>
+    </nav>
+
+    <!-- ==========================================
+         HERO SPLASH INTRODUCTION
+         ========================================== -->
+    <!-- LEARNER MISSION 3: Add clean vertical layouts, spacing wrappers (py-20), and text scale gradients -->
+    <header class="py-24">
+        <div class="max-w-2xl text-center">
+            <span class="text-cyan-400 text-sm">Our Footprint Blueprint</span>
+            <h1 class="text-lg font-bold ">We engineer architectural interfaces for global workspaces.</h1>
+            <p class="text-stone-400">Founded on the principles of performance minimalization, we assemble custom modular layouts designed to scale effortlessly without traditional platform layout overhead structural friction.</p>
+        </div>
+    </header>
+
+    <!-- ==========================================
+         METRICS / DATA METERS BAR
+         ========================================== -->
+    <!-- LEARNER MISSION 4: Convert this raw stack list container into a balanced responsive grid row (e.g., grid-cols-1 sm:grid-cols-3) -->
+    <section class="py-16">
+        <div class="max-w-4xl gap-4 px-4">
+            
+            <!-- Metric Node 1 -->
+            <div class="bg-stone-900 border-stone-800 rounded-lg p-8 text-center">
+                <div class="text-2xl text-cyan-300">99.4%</div>
+                <div class="text-stone-400">Platform Operational Uptime</div>
+            </div>
+
+            <!-- Metric Node 2 -->
+            <div class="bg-stone-900 border-stone-800 rounded-lg p-8 text-center">
+                <div class="text-2xl text-cyan-300">24M+</div>
+                <div class="text-stone-400">Global Assets Rendered</div>
+            </div>
+
+            <!-- Metric Node 3 -->
+            <div class="bg-stone-900 border-stone-800 rounded-lg p-8 text-center">
+                <div class="text-2xl text-cyan-300">2026</div>
+                <div class="text-stone-400">Est. Global Architecture Core</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+         MISSION LOGISTICS SPLIT BLOCKS
+         ========================================== -->
+    <!-- LEARNER MISSION 5: Split this into a 2-column layout on desktops (md:grid-cols-2) using full width object flex options for image balancing -->
+    <section class="py-20">
+        <div class="max-w-4xl gap-12 items-center px-4">
+            
+            <!-- Side Text Block -->
+            <div class="space-y-4">
+                <h2 class="font-bold text-2xl">Driven by programmatic technical parameters</h2>
+                <p class="text-stone-400 leading-relaxed">We believe design shouldn’t sit hidden behind a wall of archaic stylesheet compilation layers. By shifting architectural definitions into utility layers, layout manipulation transforms into a fluid real-time collaborative development experience.</p>
+                <blockquote class="border-cyan-400 italic text-stone-300">
+                    "Simplicity is the ultimate realization of design optimization frameworks."
+                </blockquote>
+            </div>
+
+            <!-- Visual Asset Wrapper Side -->
+            <div class="rounded-xl shadow-lg">
+                <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" 
+                     alt="Corporate Workspace Minimalist Interior Layout" class="w-full h-full object-cover">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ==========================================
+         TEAM MANAGEMENT PROFILES FEED
+         ========================================== -->
+    <!-- LEARNER MISSION 6: Generate custom profile cards. Use Tailwind hover transforms (hover:-translate-y-2), relative overlays, and rounded bounds -->
+    <section class="py-20">
+        <div class="max-w-4xl px-4">
+            
+            <div class="text-center">
+                <span class="text-cyan-400 text-sm">The Architecture Core</span>
+                <h2 class="text-4xl font-bold">Meet the Infrastructure Founders</h2>
+            </div>
+
+            <!-- Responsive Grid Box Workspace: 1 Column Mobile -> 2 Columns Tablet -> 3 Columns Desktop -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                
+                <!-- Founder Profile 1 -->
+                <div class="bg-stone-900 rounded-2xl border border-stone-800 hover">
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Executive Asset Portrait 1" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold">Elena Vance</h3>
+                        <p class="text-stone-400">Principal Infrastructure Architect</p>
+                    </div>
+                </div>
+
+                <!-- Founder Profile 2 -->
+                <div class="bg-stone-900 rounded-2xl border border-stone-800 hover">
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500&q=80" alt="Executive Asset Portrait 2" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold">Marcus Vance</h3>
+                        <p class="text-stone-400">Director of Interface Experience</p>
+                    </div>
+                </div>
+
+                <!-- Founder Profile 3 -->
+                <div class="bg-stone-900 rounded-2xl border border-stone-800 hover">
+                    <div class="overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=500&q=80" alt="Executive Asset Portrait 3" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-2xl font-semibold">Sonia Kross</h3>
+                        <p class="text-stone-400">Lead Operations Engineering</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+         FOOTER SIGNATURE BLOCKS
+         ========================================== -->
+    <!-- LEARNER MISSION 7: Center contents, apply dim text modifiers (text-stone-500) and top spacing boundaries -->
+    <footer class="py-10 border-stone-800 mt-14">
+        <div class="text-center text-stone-500 text-sm">
+            <p>&copy; 2026 NEXUS Architecture Platform Ecosystem. Open-source practice canvas.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
