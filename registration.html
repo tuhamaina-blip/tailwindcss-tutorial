@@ -5,7 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwindcss Tutorial</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<style>
+    :root {
+        --primary-color: #f59e0b;
+        --bg-dark: #1c1917;
+        --bg-card: #292524;
+        --text-muted: #78716c;
+        --text-white: #ffffff;
+        --border-color: #44403c;
+    }
 
+    .header-category {
+        color: var(--primary-color);
+    }
+
+    .header-title {
+        color: var(--text-white);
+    }
+
+    .header-description {
+        color: var(--text-muted);
+    }
+
+    .card {
+        background-color: var(--bg-card);
+        border-color: var(--border-color);
+    }
+
+    body {
+        background-color: var(--bg-dark);
+    }
+</style>
 </head>
 <body class="bg-stone-950 text-stone-100 min-h-screen flex items-center justify-center p-6">
     <div class="max-w-md w-full bg-stone-900 border border-stone-800 p-6 rounded-lg shadow-xl">
